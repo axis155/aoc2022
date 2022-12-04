@@ -36,10 +36,8 @@ for i in range(len(lines)):
     elf2 = temp[1].split('-')
     
     if int(elf1[0]) >= int(elf2[0]) and int(elf1[0]) <= int(elf2[1]):
-        print(elf2[0], ',',elf1[0], ',',elf2[1])
         count += 1
     elif int(elf2[0]) >= int(elf1[0]) and int(elf2[0]) <= int(elf1[1]):
-        print(elf1[0], ',',elf2[0], ',',elf1[1])
         count += 1
 
 print("Answer 2")
