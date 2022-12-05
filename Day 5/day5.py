@@ -47,7 +47,6 @@ for i in range(len(stack)):
     print(stack[i][-1], end = " ")
 
 print("")
-import re
 
 #Part 2
 with open('data.txt') as file:
