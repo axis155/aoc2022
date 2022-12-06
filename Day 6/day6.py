@@ -21,7 +21,6 @@ packets = [lines[0][i] for i in range(len(lines[0]))]
 
 for i in range(len(packets)-13):
     tempList = [packets[i + j] for j in range(14)]
-    #print(tempList)
     if not set([x for x in tempList if tempList.count(x) > 1]):
         print("Answer 2")
         print(i + 14)
